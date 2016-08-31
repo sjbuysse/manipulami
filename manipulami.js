@@ -21,7 +21,7 @@ var manipulami = ( function(){
             g = imgData.data[i*4 +1];
             b = imgData.data[i*4 +2];
 
-            gray = (r + g + b)/3;
+            gray = (0.3*r + 0.59*g + 0.11*b);
 
             imgData.data[i*4] = 
             imgData.data[i*4 +1] =  
